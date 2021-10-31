@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    background-color:gainsboro;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+span {
+    color: red;
+}
+
+/* CONTAINER */
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-bottom: 100px;
+}
+
+input {
+    border: 1px solid #cccccc; 
+    outline: 0; 
+    height: 25px; 
+    width: 150px; 
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 5px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid coral;
+}
+
+.formularios {
+    margin-top: 20px;
+}
+
+/* TABELA DE ORGANIZAÇÃO */
+
+.tabela {
+    justify-content: center;
+    display: grid;
+    margin-top: 100px;
+}
+
+.btn-div {
+    padding: 5px 10px; 
+}
+
+.tabela h5 {
+    margin-top: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color:gainsboro;
+    padding: 25px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer a {
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/cash.png" type="image/x-icon">
+    <title>MoneyHealth</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1><span>Money</span>Health.</h1>
+    </header>
+
+    <div class="container">
+      <div class="formularios">
+        <p><span>Sal</span>ário:</p>
+        <input type="number" name="salario" id="money" />
+        <p><span>Des</span>pezas:</p>
+        <input type="number" name="despezas" id="pay" />
+        <br />
+        <button class="btn" onClick="health()" type="submit">ENVIAR</button>
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+      </div>
+      <div class="tabela">
+        <h1><span>Organizando</span> tudo!</h1>
+        <button class="btn-div" onClick="valoresDivididos()" type="button">Organizar</button>
+        <h5>O valor em 40% é: </h5>
+        <p id="quarenta"></p>
+        <h5>O valor em 30% é: </h5>
+        <p id="trinta"></p>
+        <h5>O valor em 20% é: </h5>
+        <p id="vinte"></p>
+        <h5>O valor em 10% é: </h5>
+        <p id="dez"></p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="https://www.instagram.com/thiagogoisjr/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.png" alt="Instagram" width="30px"></a>
+      <a href="https://twitter.com/cactusgois" target="_blank" rel="noopener noreferrer"><img src="img/sinal-do-twitter.png" alt="Twitter" width="30px"></a>
+      <a href="https://github.com/iamgois" target="_blank"><img src="img/github.png" width="30px"></a>
+      <br>
+      <p>All Directs Reserved. Thiago Gois</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
