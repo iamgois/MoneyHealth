@@ -10,15 +10,19 @@
 /* HEADER */
 
 .header {
-    background-color:gainsboro;
+    background-color:rgb(21, 21, 21);
     padding: 15px 20px;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
+.header h1 {
+    color: white;
+}
+
 span {
-    color: red;
+    color: crimson;
 }
 
 /* CONTAINER */
@@ -27,7 +31,7 @@ span {
     align-items: center;
     justify-content: center;
     display: grid;
-    margin-bottom: 100px;
+    background-color:white;
 }
 
 input {
@@ -101,6 +105,11 @@ input {
     display: grid;
     margin-top: 100px;
     margin: 100px 100px;
+    text-align: center;
+}
+
+.tabela h1 {
+    text-align: center;
 }
 
 .btn-div {
@@ -125,19 +134,24 @@ input {
 /* FOOTER */
 
 .footer {
-    background-color:gainsboro;
-    padding: 25px 20px;
-    align-items: center;
+    padding: 15px 20px;
+    background-color:rgb(21, 21, 21);
     justify-content: center;
-    display: flex;
+    display: grid;
+    text-align: center;
 }
 
-.footer a {
-    margin-left: 10px;
-    margin-right: 10px;
+.footer p {
+    font-weight: 700;
+    color: white;
+}
+
+.media-social {
+    margin-left: 20px;
+    filter: grayscale(100%);
     transition: 0.3s ease-in-out;
 }
 
-.footer a:hover{
-    transform: translateY(-10px);
+.media-social:hover {
+    filter: grayscale(0%);
 }
